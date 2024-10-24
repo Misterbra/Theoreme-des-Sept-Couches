@@ -15,6 +15,7 @@ import warnings
 from datetime import datetime
 import json
 import io
+from waitress import serve
 
 # Configuration
 warnings.filterwarnings('ignore')
@@ -688,4 +689,5 @@ Nombre de couches analysées: {num_layers}
         )
 
 if __name__ == "__main__":
-    create_interactive_app()
+    serve(app, host="0.0.0.0", port=8080)
+    #create_interactive_app()
