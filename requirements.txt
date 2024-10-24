@@ -1,18 +1,9 @@
-# Dépendances principales
 numpy>=1.24.0
 pandas>=2.1.0
 scipy>=1.11.0
 streamlit>=1.28.0
-
-# Visualisation
 plotly>=5.18.0
 seaborn>=0.13.0
 matplotlib>=3.7.0
-
-# Utilitaires
-dataclasses>=0.8
 typing-extensions>=4.7.0
 python-dateutil>=2.8.2
-
-# Interface et formatage
-streamlit-ace>=0.1.1
